@@ -1,13 +1,23 @@
-运行demo
-1.
+运行demo 只需要执行initdemo.sh
+
+cd 到当前根目录
+sh initdemo.sh
+
+--------------------------------------------------------
+解释步骤，及相关安装注意事项
+
+1.确保yarn命令有效，初始化 rn
 source ~/.bash_profile
 yarn add react-native
 
-2.
+2.pod命令依赖
 cd ios
 pod install
 
+3.执行模拟器
+yarn start
 
+--------------------------------------------------------
 新创建注意事项如下：
 安装
 https://www.react-native.cn/docs/environment-setup
