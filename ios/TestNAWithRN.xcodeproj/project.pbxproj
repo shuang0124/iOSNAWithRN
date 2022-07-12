@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70D3F6A128757EF000DE71B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D3F6A028757EF000DE71B3 /* AppDelegate.m */; };
+		70D3F6AD28757EF000DE71B3 /* TestNAWithRN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70D3F6AB28757EF000DE71B3 /* TestNAWithRN.xcdatamodeld */; };
+		70D3F6AF28757EF600DE71B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70D3F6AE28757EF600DE71B3 /* Assets.xcassets */; };
+		70D3F6B228757EF600DE71B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D3F6B028757EF600DE71B3 /* LaunchScreen.storyboard */; };
+		70D3F6B528757EF600DE71B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D3F6B428757EF600DE71B3 /* main.m */; };
+		70D3F6BF28757EF700DE71B3 /* TestNAWithRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D3F6BE28757EF700DE71B3 /* TestNAWithRNTests.m */; };
+		70D3F6C928757EF700DE71B3 /* TestNAWithRNUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D3F6C828757EF700DE71B3 /* TestNAWithRNUITests.m */; };
+		70D3F6CB28757EF700DE71B3 /* TestNAWithRNUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D3F6CA28757EF700DE71B3 /* TestNAWithRNUITestsLaunchTests.m */; };
+		70D3F6DB2875AE3700DE71B3 /* MyRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D3F6DA2875AE3700DE71B3 /* MyRootViewController.m */; };
+		70D3F6DE287BCEE600DE71B3 /* CreatCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D3F6DD287BCEE500DE71B3 /* CreatCat.m */; };
+		70F43151287D4DA90094EC9C /* index.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 70F43150287D4DA90094EC9C /* index.jsbundle */; };
+		C69C1DEB9BFC420216E96216 /* Pods_TestNAWithRNTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39F661320FF52078E85B423 /* Pods_TestNAWithRNTests.framework */; };
+		C8BA57F24FA3780B97035CA8 /* Pods_TestNAWithRN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557958278FAEB6D8608881F4 /* Pods_TestNAWithRN.framework */; };
+		D46F4BB1BF0CD6F35175F855 /* Pods_TestNAWithRN_TestNAWithRNUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29DA6BAA336A3F6446FC535 /* Pods_TestNAWithRN_TestNAWithRNUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70D3F6BB28757EF700DE71B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70D3F69428757EF000DE71B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70D3F69B28757EF000DE71B3;
+			remoteInfo = TestNAWithRN;
+		};
+		70D3F6C528757EF700DE71B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70D3F69428757EF000DE71B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70D3F69B28757EF000DE71B3;
+			remoteInfo = TestNAWithRN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B1117328128292088D28EA /* Pods-TestNAWithRN-TestNAWithRNUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNAWithRN-TestNAWithRNUITests.release.xcconfig"; path = "Target Support Files/Pods-TestNAWithRN-TestNAWithRNUITests/Pods-TestNAWithRN-TestNAWithRNUITests.release.xcconfig"; sourceTree = "<group>"; };
+		30C00ECA8C6A1C9CFD031834 /* Pods-TestNAWithRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNAWithRNTests.release.xcconfig"; path = "Target Support Files/Pods-TestNAWithRNTests/Pods-TestNAWithRNTests.release.xcconfig"; sourceTree = "<group>"; };
+		557958278FAEB6D8608881F4 /* Pods_TestNAWithRN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestNAWithRN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C55EA05D2AF6F388567E9F2 /* Pods-TestNAWithRN-TestNAWithRNUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNAWithRN-TestNAWithRNUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestNAWithRN-TestNAWithRNUITests/Pods-TestNAWithRN-TestNAWithRNUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DA93F9E350CF8386CDECC45 /* Pods-TestNAWithRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNAWithRNTests.debug.xcconfig"; path = "Target Support Files/Pods-TestNAWithRNTests/Pods-TestNAWithRNTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70D3F69C28757EF000DE71B3 /* TestNAWithRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestNAWithRN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D3F69F28757EF000DE71B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70D3F6A028757EF000DE71B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70D3F6AC28757EF000DE71B3 /* TestNAWithRN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestNAWithRN.xcdatamodel; sourceTree = "<group>"; };
+		70D3F6AE28757EF600DE71B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70D3F6B128757EF600DE71B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70D3F6B328757EF600DE71B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70D3F6B428757EF600DE71B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70D3F6BA28757EF700DE71B3 /* TestNAWithRNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestNAWithRNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D3F6BE28757EF700DE71B3 /* TestNAWithRNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNAWithRNTests.m; sourceTree = "<group>"; };
+		70D3F6C428757EF700DE71B3 /* TestNAWithRNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestNAWithRNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D3F6C828757EF700DE71B3 /* TestNAWithRNUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNAWithRNUITests.m; sourceTree = "<group>"; };
+		70D3F6CA28757EF700DE71B3 /* TestNAWithRNUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNAWithRNUITestsLaunchTests.m; sourceTree = "<group>"; };
+		70D3F6D92875AE3700DE71B3 /* MyRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyRootViewController.h; sourceTree = "<group>"; };
+		70D3F6DA2875AE3700DE71B3 /* MyRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRootViewController.m; sourceTree = "<group>"; };
+		70D3F6DC287BCEE500DE71B3 /* CreatCat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreatCat.h; sourceTree = "<group>"; };
+		70D3F6DD287BCEE500DE71B3 /* CreatCat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreatCat.m; sourceTree = "<group>"; };
+		70F43150287D4DA90094EC9C /* index.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = file; name = index.jsbundle; path = bundle/index.jsbundle; sourceTree = SOURCE_ROOT; };
+		97924BCB7C1895C4B3213957 /* Pods-TestNAWithRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNAWithRN.debug.xcconfig"; path = "Target Support Files/Pods-TestNAWithRN/Pods-TestNAWithRN.debug.xcconfig"; sourceTree = "<group>"; };
+		A39F661320FF52078E85B423 /* Pods_TestNAWithRNTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestNAWithRNTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C009325A62C5D92CA38E2FC3 /* Pods-TestNAWithRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNAWithRN.release.xcconfig"; path = "Target Support Files/Pods-TestNAWithRN/Pods-TestNAWithRN.release.xcconfig"; sourceTree = "<group>"; };
+		E29DA6BAA336A3F6446FC535 /* Pods_TestNAWithRN_TestNAWithRNUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestNAWithRN_TestNAWithRNUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70D3F69928757EF000DE71B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BA57F24FA3780B97035CA8 /* Pods_TestNAWithRN.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D3F6B728757EF700DE71B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69C1DEB9BFC420216E96216 /* Pods_TestNAWithRNTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D3F6C128757EF700DE71B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46F4BB1BF0CD6F35175F855 /* Pods_TestNAWithRN_TestNAWithRNUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70D3F69328757EF000DE71B3 = {
+			isa = PBXGroup;
+			children = (
+				70D3F69E28757EF000DE71B3 /* TestNAWithRN */,
+				70D3F6BD28757EF700DE71B3 /* TestNAWithRNTests */,
+				70D3F6C728757EF700DE71B3 /* TestNAWithRNUITests */,
+				70D3F69D28757EF000DE71B3 /* Products */,
+				E7CF0B035CAF90F7C7A3594D /* Pods */,
+				7917794BA5D37A6BAFD867E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70D3F69D28757EF000DE71B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70D3F69C28757EF000DE71B3 /* TestNAWithRN.app */,
+				70D3F6BA28757EF700DE71B3 /* TestNAWithRNTests.xctest */,
+				70D3F6C428757EF700DE71B3 /* TestNAWithRNUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70D3F69E28757EF000DE71B3 /* TestNAWithRN */ = {
+			isa = PBXGroup;
+			children = (
+				70F43150287D4DA90094EC9C /* index.jsbundle */,
+				70D3F69F28757EF000DE71B3 /* AppDelegate.h */,
+				70D3F6A028757EF000DE71B3 /* AppDelegate.m */,
+				70D3F6D92875AE3700DE71B3 /* MyRootViewController.h */,
+				70D3F6DA2875AE3700DE71B3 /* MyRootViewController.m */,
+				70D3F6DC287BCEE500DE71B3 /* CreatCat.h */,
+				70D3F6DD287BCEE500DE71B3 /* CreatCat.m */,
+				70D3F6AE28757EF600DE71B3 /* Assets.xcassets */,
+				70D3F6B028757EF600DE71B3 /* LaunchScreen.storyboard */,
+				70D3F6B328757EF600DE71B3 /* Info.plist */,
+				70D3F6B428757EF600DE71B3 /* main.m */,
+				70D3F6AB28757EF000DE71B3 /* TestNAWithRN.xcdatamodeld */,
+			);
+			path = TestNAWithRN;
+			sourceTree = "<group>";
+		};
+		70D3F6BD28757EF700DE71B3 /* TestNAWithRNTests */ = {
+			isa = PBXGroup;
+			children = (
+				70D3F6BE28757EF700DE71B3 /* TestNAWithRNTests.m */,
+			);
+			path = TestNAWithRNTests;
+			sourceTree = "<group>";
+		};
+		70D3F6C728757EF700DE71B3 /* TestNAWithRNUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70D3F6C828757EF700DE71B3 /* TestNAWithRNUITests.m */,
+				70D3F6CA28757EF700DE71B3 /* TestNAWithRNUITestsLaunchTests.m */,
+			);
+			path = TestNAWithRNUITests;
+			sourceTree = "<group>";
+		};
+		7917794BA5D37A6BAFD867E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				557958278FAEB6D8608881F4 /* Pods_TestNAWithRN.framework */,
+				E29DA6BAA336A3F6446FC535 /* Pods_TestNAWithRN_TestNAWithRNUITests.framework */,
+				A39F661320FF52078E85B423 /* Pods_TestNAWithRNTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7CF0B035CAF90F7C7A3594D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97924BCB7C1895C4B3213957 /* Pods-TestNAWithRN.debug.xcconfig */,
+				C009325A62C5D92CA38E2FC3 /* Pods-TestNAWithRN.release.xcconfig */,
+				5C55EA05D2AF6F388567E9F2 /* Pods-TestNAWithRN-TestNAWithRNUITests.debug.xcconfig */,
+				04B1117328128292088D28EA /* Pods-TestNAWithRN-TestNAWithRNUITests.release.xcconfig */,
+				5DA93F9E350CF8386CDECC45 /* Pods-TestNAWithRNTests.debug.xcconfig */,
+				30C00ECA8C6A1C9CFD031834 /* Pods-TestNAWithRNTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70D3F69B28757EF000DE71B3 /* TestNAWithRN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70D3F6CE28757EF700DE71B3 /* Build configuration list for PBXNativeTarget "TestNAWithRN" */;
+			buildPhases = (
+				00973FB91B973021B74A69A1 /* [CP] Check Pods Manifest.lock */,
+				70D3F69828757EF000DE71B3 /* Sources */,
+				70D3F69928757EF000DE71B3 /* Frameworks */,
+				70D3F69A28757EF000DE71B3 /* Resources */,
+				787C17C8DCEFB47B7140BE7C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestNAWithRN;
+			productName = TestNAWithRN;
+			productReference = 70D3F69C28757EF000DE71B3 /* TestNAWithRN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70D3F6B928757EF700DE71B3 /* TestNAWithRNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70D3F6D128757EF700DE71B3 /* Build configuration list for PBXNativeTarget "TestNAWithRNTests" */;
+			buildPhases = (
+				ECFEA33D3C3898657EE509D5 /* [CP] Check Pods Manifest.lock */,
+				70D3F6B628757EF700DE71B3 /* Sources */,
+				70D3F6B728757EF700DE71B3 /* Frameworks */,
+				70D3F6B828757EF700DE71B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70D3F6BC28757EF700DE71B3 /* PBXTargetDependency */,
+			);
+			name = TestNAWithRNTests;
+			productName = TestNAWithRNTests;
+			productReference = 70D3F6BA28757EF700DE71B3 /* TestNAWithRNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70D3F6C328757EF700DE71B3 /* TestNAWithRNUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70D3F6D428757EF700DE71B3 /* Build configuration list for PBXNativeTarget "TestNAWithRNUITests" */;
+			buildPhases = (
+				B0378D48AE3F0A257575A04E /* [CP] Check Pods Manifest.lock */,
+				70D3F6C028757EF700DE71B3 /* Sources */,
+				70D3F6C128757EF700DE71B3 /* Frameworks */,
+				70D3F6C228757EF700DE71B3 /* Resources */,
+				019BAF5C8C7C4DC524AE1CFF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70D3F6C628757EF700DE71B3 /* PBXTargetDependency */,
+			);
+			name = TestNAWithRNUITests;
+			productName = TestNAWithRNUITests;
+			productReference = 70D3F6C428757EF700DE71B3 /* TestNAWithRNUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70D3F69428757EF000DE71B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					70D3F69B28757EF000DE71B3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					70D3F6B928757EF700DE71B3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 70D3F69B28757EF000DE71B3;
+					};
+					70D3F6C328757EF700DE71B3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 70D3F69B28757EF000DE71B3;
+					};
+				};
+			};
+			buildConfigurationList = 70D3F69728757EF000DE71B3 /* Build configuration list for PBXProject "TestNAWithRN" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70D3F69328757EF000DE71B3;
+			productRefGroup = 70D3F69D28757EF000DE71B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70D3F69B28757EF000DE71B3 /* TestNAWithRN */,
+				70D3F6B928757EF700DE71B3 /* TestNAWithRNTests */,
+				70D3F6C328757EF700DE71B3 /* TestNAWithRNUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70D3F69A28757EF000DE71B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F43151287D4DA90094EC9C /* index.jsbundle in Resources */,
+				70D3F6B228757EF600DE71B3 /* LaunchScreen.storyboard in Resources */,
+				70D3F6AF28757EF600DE71B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D3F6B828757EF700DE71B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D3F6C228757EF700DE71B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00973FB91B973021B74A69A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestNAWithRN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		019BAF5C8C7C4DC524AE1CFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestNAWithRN-TestNAWithRNUITests/Pods-TestNAWithRN-TestNAWithRNUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestNAWithRN-TestNAWithRNUITests/Pods-TestNAWithRN-TestNAWithRNUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestNAWithRN-TestNAWithRNUITests/Pods-TestNAWithRN-TestNAWithRNUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		787C17C8DCEFB47B7140BE7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestNAWithRN/Pods-TestNAWithRN-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestNAWithRN/Pods-TestNAWithRN-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestNAWithRN/Pods-TestNAWithRN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0378D48AE3F0A257575A04E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestNAWithRN-TestNAWithRNUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECFEA33D3C3898657EE509D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestNAWithRNTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70D3F69828757EF000DE71B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D3F6B528757EF600DE71B3 /* main.m in Sources */,
+				70D3F6AD28757EF000DE71B3 /* TestNAWithRN.xcdatamodeld in Sources */,
+				70D3F6A128757EF000DE71B3 /* AppDelegate.m in Sources */,
+				70D3F6DB2875AE3700DE71B3 /* MyRootViewController.m in Sources */,
+				70D3F6DE287BCEE600DE71B3 /* CreatCat.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D3F6B628757EF700DE71B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D3F6BF28757EF700DE71B3 /* TestNAWithRNTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D3F6C028757EF700DE71B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D3F6CB28757EF700DE71B3 /* TestNAWithRNUITestsLaunchTests.m in Sources */,
+				70D3F6C928757EF700DE71B3 /* TestNAWithRNUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70D3F6BC28757EF700DE71B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70D3F69B28757EF000DE71B3 /* TestNAWithRN */;
+			targetProxy = 70D3F6BB28757EF700DE71B3 /* PBXContainerItemProxy */;
+		};
+		70D3F6C628757EF700DE71B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70D3F69B28757EF000DE71B3 /* TestNAWithRN */;
+			targetProxy = 70D3F6C528757EF700DE71B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70D3F6B028757EF600DE71B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70D3F6B128757EF600DE71B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70D3F6CC28757EF700DE71B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70D3F6CD28757EF700DE71B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70D3F6CF28757EF700DE71B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97924BCB7C1895C4B3213957 /* Pods-TestNAWithRN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PVX7S8FD2;
+				ENABLE_BITCODE = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestNAWithRN/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TestRN;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igetcool.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70D3F6D028757EF700DE71B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C009325A62C5D92CA38E2FC3 /* Pods-TestNAWithRN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PVX7S8FD2;
+				ENABLE_BITCODE = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestNAWithRN/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TestRN;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igetcool.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70D3F6D228757EF700DE71B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA93F9E350CF8386CDECC45 /* Pods-TestNAWithRNTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PVX7S8FD2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igetcool.app.TestNAWithRNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestNAWithRN.app/TestNAWithRN";
+			};
+			name = Debug;
+		};
+		70D3F6D328757EF700DE71B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C00ECA8C6A1C9CFD031834 /* Pods-TestNAWithRNTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PVX7S8FD2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igetcool.app.TestNAWithRNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestNAWithRN.app/TestNAWithRN";
+			};
+			name = Release;
+		};
+		70D3F6D528757EF700DE71B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C55EA05D2AF6F388567E9F2 /* Pods-TestNAWithRN-TestNAWithRNUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PVX7S8FD2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igetcool.app.TestNAWithRNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestNAWithRN;
+			};
+			name = Debug;
+		};
+		70D3F6D628757EF700DE71B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B1117328128292088D28EA /* Pods-TestNAWithRN-TestNAWithRNUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PVX7S8FD2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igetcool.app.TestNAWithRNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestNAWithRN;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70D3F69728757EF000DE71B3 /* Build configuration list for PBXProject "TestNAWithRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D3F6CC28757EF700DE71B3 /* Debug */,
+				70D3F6CD28757EF700DE71B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70D3F6CE28757EF700DE71B3 /* Build configuration list for PBXNativeTarget "TestNAWithRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D3F6CF28757EF700DE71B3 /* Debug */,
+				70D3F6D028757EF700DE71B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70D3F6D128757EF700DE71B3 /* Build configuration list for PBXNativeTarget "TestNAWithRNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D3F6D228757EF700DE71B3 /* Debug */,
+				70D3F6D328757EF700DE71B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70D3F6D428757EF700DE71B3 /* Build configuration list for PBXNativeTarget "TestNAWithRNUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D3F6D528757EF700DE71B3 /* Debug */,
+				70D3F6D628757EF700DE71B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		70D3F6AB28757EF000DE71B3 /* TestNAWithRN.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				70D3F6AC28757EF000DE71B3 /* TestNAWithRN.xcdatamodel */,
+			);
+			currentVersion = 70D3F6AC28757EF000DE71B3 /* TestNAWithRN.xcdatamodel */;
+			path = TestNAWithRN.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 70D3F69428757EF000DE71B3 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_TestNAWithRN_TestNAWithRNUITests {
+  umbrella header "Pods-TestNAWithRN-TestNAWithRNUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
