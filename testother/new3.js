@@ -18,6 +18,42 @@ import {
 //导入
 var cat = require('react-native').NativeModules.CreatCat;
 
+// network
+function getMoviesFromApiAsync() {
+  return fetch(
+    'https://facebook.github.io/react-native/movies.json'
+  )
+    .then((response) => response.json())
+    .then((responseJson) => {
+        alert(responseJson.description)
+      return responseJson.movies;
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+}
+
+function testNet2() {
+    fetch('https://mywebsite.com/endpoint/', {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        firstParam: 'yourValue',
+        secondParam: 'yourOtherValue'
+      })
+    })
+    .then((response) => response.json())
+    .then((responseJson) => {
+        alert(responseJson.description)
+      return responseJson.movies;
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+}
 
 class NACat extends React.Component  {
 //方法执行，
@@ -31,15 +67,24 @@ class NACat extends React.Component  {
   }
     
     ok(){
-        cat.findEventsPromise()
-          .then((responseJson) => {
-            alert(responseJson)
-          })
-          .catch((error) => {
-            console.error(error);
-          });
+        // net
+//        getMoviesFromApiAsync();
+        
+        // net 2
+        testNet2();
+        
+        
+        // 调用NA代码
+//        cat.findEventsPromise()
+//          .then((responseJson) => {
+//            alert(responseJson)
+//          })
+//          .catch((error) => {
+//            console.error(error);
+//          });
       }
 
+    
     
   render() {
     return (

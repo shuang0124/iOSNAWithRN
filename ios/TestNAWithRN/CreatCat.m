@@ -33,7 +33,7 @@ RCT_REMAP_METHOD(findEventsPromise,
                  resolver:(RCTPromiseResolveBlock)resolve
                  rejecter:(RCTPromiseRejectBlock)reject)
 {
-    id events =  [self getData]; // [self getDicData];
+    id events =   [self getData]; // [self getDicData];
     if (events) {
         resolve(events);
     } else {
